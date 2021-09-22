@@ -150,7 +150,18 @@ li {
   flex-direction: column;
 }
 
-/* 🍀world-right-first-page */
+/* 🍀world-right - page1 */
+
+/* js 10 */
+.page1{
+    position: fixed;
+    top: 0; 
+    right: 0;
+}
+.page1.change {
+    right: -30vw;
+}
+
 .world-right {
   position: relative;
 }
@@ -266,6 +277,14 @@ li {
 }
 
 /*🍀 page2  */
+.page2{
+    position: fixed;
+    top: 0; 
+    right: -30vw;
+}
+.page2.change {
+    right: 0;
+}
 
 .page2 .title {
   width: 30vw;
@@ -375,6 +394,15 @@ li {
 }
 
 /*🍀 page3  */
+
+.page3{
+    position: fixed;
+    top: 0; 
+    right: -30vw;
+}
+.page3.change {
+    right: 0;
+}
 
 .page3 .title {
   width: 30vw;
