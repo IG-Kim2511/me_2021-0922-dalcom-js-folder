@@ -56,8 +56,8 @@ position: relative;
 
 .myButton {
 	box-shadow: 0px 1px 0px 0px #f0f7fa;
-	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
-	background-color:#33bdef;
+	background:linear-gradient(to bottom, #269DF5 5%, #35719E 100%);
+	background-color:#269DF5;
 	border-radius: 1rem;
 	/* border:1px solid #057fd0; */
 	display:inline-block;
@@ -74,8 +74,8 @@ position: relative;
     padding: 3rem;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
-	background-color:#019ad2;
+	background:linear-gradient(to bottom, #35719E 5%, #269DF5 100%);
+	background-color:#35719E;
 }
 .myButton:active {
 	position:relative;
@@ -190,50 +190,49 @@ background-color:#DBDB54;
 }
 
 
-.grid-b {
+.page1 .grid-b {
 grid-area: b;
 }
-.grid-c {
+.page1 .grid-c {
 grid-area: c;
 }
-.grid-d {
+.page1 .grid-d {
 grid-area: d;
 }
-.grid-e {
+.page1 .grid-e {
 grid-area: e;
 }
 
-.grid-a img {
+.page1 .grid-a img {
 
   width: 2rem;
 
   position: absolute;
-  bottom: 1rem;
-  left: 2rem;  
+  bottom: 4.5rem;
+  left: 4rem;  
 }
 
-.grid-b p{
+.page1 .grid-b p{
     margin: auto;
     left: 0;
     right: 0;
 }
-.grid-b img {
+.page1 .grid-b img {
   width: 2rem;
+  }
 
-}
-
-.grid-c img {
-width: 2rem;
-
-position: absolute;
-bottom: 1rem;
-left: 2rem;  
-}
-
-.grid-d img {
-width: 2rem;
+.page1 .grid-c img {
+width: 3rem;
 
 position: absolute;
-bottom: 1rem;
-left: 2rem;  
+bottom: 4rem;
+left: 2rem;   
+}
+
+.page1 .grid-d img {
+width: 3rem;
+
+position: absolute;
+bottom: 4rem;
+left: 3rem;   
 }
