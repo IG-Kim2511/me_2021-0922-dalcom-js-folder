@@ -209,14 +209,7 @@ background-color:#2FEF1F;
 .page1 .grid-a :hover {
     background:linear-gradient(to bottom, #30532E 5%, #2FEF1F 100%);
     background-color:#30532E
-
-
 }
-    /* #2FEF1F */
-
-
-
-
 
 .page1 .grid-a img {
 
@@ -250,4 +243,33 @@ width: 3rem;
 position: absolute;
 bottom: 4rem;
 left: 3rem;   
+}
+
+/*  */
+.page2 .title{
+    width: 30vw;
+}
+.page2 .title img{
+    width: 100%;
+
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+.page2 .btn-container{
+width: 90%;
+
+position: absolute;
+bottom: 5rem;
+left: 0;
+right: 0;
+margin: auto;
+
+display: grid;
+grid-template-areas:
+  "a b"
+  "c d"
+  "e e";
+gap: 5%;
 }
