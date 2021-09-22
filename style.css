@@ -58,17 +58,20 @@ position: relative;
 	box-shadow: 0px 1px 0px 0px #f0f7fa;
 	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
 	background-color:#33bdef;
-	border-radius:6px;
-	border:1px solid #057fd0;
+	border-radius: 1rem;
+	/* border:1px solid #057fd0; */
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:15px;
+	font-size:2rem;
 	font-weight:bold;
-	padding:6px 24px;
+	/* padding:6px 24px; */
 	text-decoration:none;
 	text-shadow:0px -1px 0px #5b6178;
+
+    position: relative;
+    padding: 3rem;
 }
 .myButton:hover {
 	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
@@ -84,10 +87,11 @@ position: relative;
 
 /* 🍀 start coding */
 
-
 .world{
     display: flex;
 }
+
+/* 🍀world-left */
 
 .world-left{
 background:linear-gradient(to bottom, #fff 5%, var(--color-grey) 100%);
@@ -120,24 +124,7 @@ background-color: #becbd3;
     width: 100%;
     margin: 0 auto 0 0;
 
-    /* background:linear-gradient(to bottom, #fff 5%, #ecedf1 100%); */
-
     background-image: linear-gradient( #8e8f91, #eee 50%,  #8e8f91 100%);
-    /* 
-    
-    #EFF3F7
-    
-    
-    #707070
-
-
-     background-image: linear-gradient(to right, black, blue 400px, black 800px);
-  background-size: 800px 100%;
-  background-position: 50% 100%;
-  background-repeat: no-repeat;
-
-
-    */
 }
 
 .disabled-img{
@@ -153,4 +140,100 @@ margin: auto;
 
 display: flex;
 flex-direction: column;
+}
+
+
+/* 🍀world-right-first-page */
+.world-right{
+    position: relative;
+}
+
+.bags{
+    width: 30vw;
+}
+.bags img{
+    width: 100%;
+
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+.page1 .btn-container{
+width: 90%;
+
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+
+display: grid;
+grid-template-areas:
+  "a b"
+  "c d"
+  "e e";
+gap: 5%;
+}
+
+.page1 .grid-a {
+grid-area: a;
+
+background:linear-gradient(to bottom, #DBDB54 5%, #7E7B3C 100%);
+background-color:#DBDB54;
+
+}
+
+.page1 .grid-a :hover {
+	background:linear-gradient(to bottom, #7E7B3C 5%, #DBDB54 100%);
+	background-color:#7E7B3C;
+}
+
+
+.grid-b {
+grid-area: b;
+}
+.grid-c {
+grid-area: c;
+}
+.grid-d {
+grid-area: d;
+}
+.grid-e {
+grid-area: e;
+}
+
+.grid-a img {
+
+  width: 2rem;
+
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;  
+}
+
+.grid-b p{
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.grid-b img {
+  width: 2rem;
+
+}
+
+.grid-c img {
+width: 2rem;
+
+position: absolute;
+bottom: 1rem;
+left: 2rem;  
+}
+
+.grid-d img {
+width: 2rem;
+
+position: absolute;
+bottom: 1rem;
+left: 2rem;  
 }
