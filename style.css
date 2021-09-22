@@ -199,7 +199,7 @@ background:linear-gradient(to bottom, #DBDB54 5%, #7E7B3C 100%);
 background-color:#DBDB54;
 }
 
-.page1 .grid-a :hover {
+.page1 .grid-a:hover {
 	background:linear-gradient(to bottom, #7E7B3C 5%, #DBDB54 100%);
 	background-color:#7E7B3C;
 }
@@ -213,14 +213,30 @@ grid-area: c;
 .page1 .grid-d {
 grid-area: d;
 }
+
+/* 
+.myButton2 {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #269DF5 5%, #35719E 100%);
+	background-color:#269DF5;}
+
+.myButton2:hover {
+    background:linear-gradient(to bottom, #35719E 5%, #269DF5 100%);
+    background-color:#35719E;}    
+*/
+
+
+
 .page1 .grid-e {
 grid-area: e;
 
 background:linear-gradient(to bottom, #2FEF1F 5%, #30532E 100%);
 background-color:#2FEF1F;
+
+padding: 3rem;
 }
 
-.page1 .grid-a :hover {
+.page1 .grid-e:hover {
     background:linear-gradient(to bottom, #30532E 5%, #2FEF1F 100%);
     background-color:#30532E
 }
@@ -228,11 +244,11 @@ background-color:#2FEF1F;
 /* 🍉img */
 .page1 .grid-a img {
 
-  width: 2rem;
+  width: 2.5rem;
 
   position: absolute;
-  bottom: 4.5rem;
-  left: 4rem;  
+  bottom: 2rem;
+  left: 3.5rem;  
 }
 
 .page1 .grid-b p{
@@ -241,22 +257,22 @@ background-color:#2FEF1F;
     right: 0;
 }
 .page1 .grid-b img {
-  width: 2rem;
+  width: 2.5rem;
   }
 
 .page1 .grid-c img {
 width: 3rem;
 
 position: absolute;
-bottom: 4rem;
-left: 2rem;   
+bottom: 2rem;
+left: 2rem;  
 }
 
 .page1 .grid-d img {
 width: 3rem;
 
 position: absolute;
-bottom: 4rem;
+bottom: 1.5rem;
 left: 3rem;   
 }
 
