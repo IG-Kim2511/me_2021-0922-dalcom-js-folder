@@ -148,10 +148,10 @@ flex-direction: column;
     position: relative;
 }
 
-.bags{
+.page1 .bags{
     width: 30vw;
 }
-.bags img{
+.page1 .bags img{
     width: 100%;
 
     display: block;
@@ -163,7 +163,7 @@ flex-direction: column;
 width: 90%;
 
 position: absolute;
-bottom: 0;
+bottom: 5rem;
 left: 0;
 right: 0;
 margin: auto;
@@ -181,7 +181,6 @@ grid-area: a;
 
 background:linear-gradient(to bottom, #DBDB54 5%, #7E7B3C 100%);
 background-color:#DBDB54;
-
 }
 
 .page1 .grid-a :hover {
@@ -189,6 +188,7 @@ background-color:#DBDB54;
 	background-color:#7E7B3C;
 }
 
+/* #2FEF1F */
 
 .page1 .grid-b {
 grid-area: b;
@@ -201,7 +201,22 @@ grid-area: d;
 }
 .page1 .grid-e {
 grid-area: e;
+
+background:linear-gradient(to bottom, #2FEF1F 5%, #30532E 100%);
+background-color:#2FEF1F;
 }
+
+.page1 .grid-a :hover {
+    background:linear-gradient(to bottom, #30532E 5%, #2FEF1F 100%);
+    background-color:#30532E
+
+
+}
+    /* #2FEF1F */
+
+
+
+
 
 .page1 .grid-a img {
 
