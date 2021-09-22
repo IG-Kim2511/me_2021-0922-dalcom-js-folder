@@ -1,317 +1,156 @@
-/* 🍀ready- Global */
-
-/* 🚀🦄공식
-
-🍀
-.기본적으로 코딩하는 순서{
-    1. 백그라운드, width, height 넣음
-
-    background-color: aliceblue;
-    width: 100px;
-    height: 100px;
-
-    2. position 넣음
-
-    position: absolute;
-    left: 10;
-    bottom: 0;
-
-    3. 나머지 코딩
-
-    background-repeat: no-repeat;
-    background-position: 50% 100%;
-    background-size: contain;
-
-    
-    transition: 0.5s;
-}
-
-
-🍀
- width: calc(1*2*100%); 
-
---base: 1rem;
---sm: calc(var(--base) * 1.5);
-
-🍀
-.transform{
-  transform: translateX(1px) translate3d(10%,20%,50%) scaleX(2);
-  
-  transform-origin: 10% 20%;  
-}
-
-🍀
-.transition{
-  transition: all 1s linear;
-}
-.transition:hover{
-  transform: rotateY( 45deg);
-}
-
-
-🍀
-.animation{
-  animation: name duration timing-function delay iteration-count direction fill-mode;
-  animation: name 3s linear infinite reverse;
-}
-
-🍀
-.perspective{  
-  transform: perspective(500px)  rotateY( 45deg);
-}
-
-🍀
-.perspective2{
-  perspective: 1000px;
-}
-
-.perspective2-son{
-  transform-style: preserve-3d;
-}
-
-.perspective2-grandson{
-  transform: rotateY( 45deg);
-}
-
-🍀
-.backface-visibility{
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-🍀박스 마우스 중앙정렬
-.center{
-  width: 100px;
-  height: 150px;
-  margin: -75px 0 0 -50px; ⚡margin으로 왼쪽위로 이동시킴
-}
-
-
-🍀flex
-.container{
-  height: 80vh;    
-
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-}
-
-.item{
-  padding: 2em;
-  border: 3px solid black;
-
-  flex-grow: 1; ⚡ item div에 코딩함
-  flex-basis: 0; ⚡ 박스안의 text길이 무시하기
-  
-}
-
-⚡nth-child, flex-grow로 각 박스크기 설정하기
-.item:nth-child(1) {flex-grow: 1;}
-.item:nth-child(2) {flex-grow: 5;}
-.item:nth-child(3) {flex-grow: 2;}
-.item:nth-child(4) {flex-grow: 3;}
-.item:nth-child(5) {flex-grow: 1;}
-
-
-
-*/
-
-/*🍀test: color, hover for javascript effect
-
-html{
-  color: yellow;
-  }
-
-html:hover{
-  color:yellow;
-}
-*/
 
 :root {
-    /* color */
-  
-    --color-naver: #0eae44;
-    --color-facebook: #3b5998;
-    --color-netflix: #d61319;
-    --color-kakao: #fee101;
-  
+    /* color */  
+
     --main-color: #fee101;
     --second-color: #d61319;
+
+    --color-grey: #8e8f91;
+
+    --color-white: #eee;
   
-    --color-red: #e01541;
-    --color-blue: #446df6;
-    --color-green: #33ca7f;
-  
-    --color-black: #000;
-  
-    --color-grey: #555;
-    --color-grey-light1: #777;
-    --color-grey-light2: #aaa;
-    --color-white-darker: #eee;
-  
-    --color-white: #fff;
-  
-    /* 
-    --color-white: #ffffff;
-    --color-light-white: #f3f3f3;
-    --color-light2-white: #eeeeee;
-    --color-dark-white: #bdbdbd;
-  
-    --color-black: #000000;
-    --color-grey: #616161;
-    --color-dark-grey: #4d4d4d;
-    --color-light-grey: #7c7979; 
-    */
-  
-    --shadow:  0 2rem 3rem #777;
-  
-    /* color sample
-      background-color: gainsboro;
-      background-color: ghostwhite;
-      background-color: aliceblue;
-    */
-  
-    /* size */
-    --base: 1rem;
-    --sm: calc(var(--base) * 1.5);
-    --med: calc(var(--base) * 3);
-    --large: calc(var(--base) * 5);
-  
-    /* border-radius :basic 4px=0.25rem  */
-    --border-radius-4px: 0.3rem;
-  
-    /* Animation :basic 300ms=0.3s  */
-    --animation_basic-duration-300ms: 300ms;
-  
-    /* letterspacing : basic 0.1rem */
-    --letterspacing-basic: 0.1rem;
   }
-  
-  /*🍀Universal tags */
-  
-  html {
-    /* scroll부드럽게 ( + html : <a href="#~~~~"></a> 써야함) */
-    scroll-behavior: smooth;
-  
-    font-size: 100%;
-  }
-  
-  body {
-    font-family: "Open Sans", sans-serif;
-    max-width: 1000px;
-    text-align: center;
-    margin: auto;
-    padding: 0 auto;
-  }
-  
-  *,
-  *::after,
-  *::before {
-    box-sizing: border-box; /* margin의 기준선이 border를 기준으로  만들어짐 */
-  
-    border: 0;
-    margin: 0;
-    padding: 0;
-  }
-  
-  a {
+
+  /*universal  */
+*,
+*::after,
+*::before {
+  box-sizing: border-box; /* margin의 기준선이 border를 기준으로  만들어짐 */
+
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+a {
     text-decoration: none;
     color: black;
-  }
-  
-  ul {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  li {
-    list-style: none;
-  }
-  
-  /* ??!! span의 좁은 블럭 설정 바꾸기
-  
-  block: div : 한줄 전체를 차지함
-  inline: span: 한칸만 차지. padding등 스타일을 넣어도 영향안받음
-  inline-block: 한칸만 차지. 스타일 영향받음 good
-  
-  span{
-    display: inline-block;
-  } */
-  
-  /* 🍀 table : 🚀 table -center align */
-  table {
-    width: 100%;
-  }
-  
-  th,
-  td {
-    text-align: center;
-    vertical-align: middle;
-  }
-  
-  /* 🍀Utility class */
-  
-  .center {
+}
+
+ul {
+list-style: none;
+padding-left: 0;
+}
+
+li {
+list-style: none;
+}
+
+
+/* 🍀Utility class */
+
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
-  .display-none {
-    display: none;
-  }
-  
-  .display-block {
-    display: block;
-  }
-  
-  .opacity {
-    opacity: 1 !important;
-  }
-  
-  .overflow {
-    overflow: hidden;
-  }
-  
-  .relative {
-    position: relative;
-  }
-  
-  .transforming {
-    transition: transform 0.5s;
-  }
-  
-  /* 🍀myBtn  */
-  .myBtn {
-    box-shadow: inset 0px 39px 0px -24px #3b5998;
-    background-color: #3b5998;
-    border-radius: 4px;
-    border: 1px solid #ffffff;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-  
-    font-size: 15px;
-    padding: 6px 15px;
-    text-decoration: none;
-  }
-  .myBtn:hover {
-    /* background-color:  #3b5998; */
-    opacity: 0.6;
-  }
-  .myBtn:active {
-    position: relative;
-    top: 1px;
-  }
-  
-  /* 🍀 start coding
-  - Navbar */
-  #navbar {
-    color: var(--color-black);
-  }
-  
-  
 
-  /*  */
+.flot_clear{
+    clear: both;
+}
+
+.relative {
+position: relative;
+}
+
+
+.myButton {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+/* 🍀 start coding */
+
+
+.world{
+    display: flex;
+}
+
+.world-left{
+background:linear-gradient(to bottom, #fff 5%, var(--color-grey) 100%);
+
+width: 70vw;
+    height: 100vh;
+    position: relative;
+
+
+}
+.world-right{
+background-color: var(--color-white);
+
+width: 30vw;
+    height: 100vh;
+    position: relative;
+
+}
+
+/*  */
+.abc{
+    margin: auto;
+}
+.left-second_lay{
+background-color: #becbd3;
+
+}
+
+.disabled{
+    width: 100%;
+    margin: 0 auto 0 0;
+
+    /* background:linear-gradient(to bottom, #fff 5%, #ecedf1 100%); */
+
+    background-image: linear-gradient( #8e8f91, #eee 50%,  #8e8f91 100%);
+    /* 
+    
+    #EFF3F7
+    
+    
+    #707070
+
+
+     background-image: linear-gradient(to right, black, blue 400px, black 800px);
+  background-size: 800px 100%;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+
+
+    */
+}
+
+.disabled-img{
+    float: right;
+}
+
+.left-second-container{
+position:absolute;
+bottom: 0rem;
+left: 0;
+right: 0;
+margin: auto;
+
+display: flex;
+flex-direction: column;
+}
