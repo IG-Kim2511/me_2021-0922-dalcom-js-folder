@@ -281,6 +281,8 @@ li {
     position: fixed;
     top: 0; 
     right: -30vw;
+
+    transition: all .3s ease;
 }
 .page2.change {
     right: 0;
@@ -399,6 +401,8 @@ li {
     position: fixed;
     top: 0; 
     right: -30vw;
+    
+    transition: all .3s ease;
 }
 .page3.change {
     right: 0;
