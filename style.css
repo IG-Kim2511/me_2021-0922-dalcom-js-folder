@@ -159,7 +159,7 @@ li {
 
 
 
- /* 
+ /* 🍉flex
  .abc .items{
     display: flex;
     justify-content: space-between;
@@ -200,28 +200,44 @@ li {
 
  */
 
+ /* 🍉table */
  .abc .check-wrap{  
   width: 40vw; 
+  border-collapse: collapse;  
 }
-
- .abc .check-wrap .items{
-   background-color: violet;
-  width: 40vw; 
-  
-  border-collapse: collapse;
-
-  /* 🌊 */
-  border-top: 1px #717274 solid;
-  border-bottom: 1px #717274 solid;  
- }
-
 
  .abc .check-wrap .tax,
  .abc .check-wrap .total{
-   background-color: yellow;
-   text-align: right;
+   text-align: center;
+   color: black;
+   
  }
 
+ .abc table {
+  border-top: 1px #717274 solid;    
+}
+
+.abc table .items{  
+  padding:  1rem auto;
+  margin:  1rem auto;  
+}
+
+.abc tbody {
+  border-top: 1px #717274 solid;    
+}
+
+.abc .check-wrap td {   
+  border-bottom: 1px #717274 solid;  
+
+  padding: 0.5rem 0.2rem;
+}
+.abc .check-wrap th {   
+   padding: 0.3rem 0.2rem;
+}
+
+.abc .tax-price{
+  border-bottom: 1px #717274 solid;  
+}
 
 
 
