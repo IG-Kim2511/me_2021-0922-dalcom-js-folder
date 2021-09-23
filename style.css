@@ -10,6 +10,8 @@
 }
 
 /*universal  */
+
+
 *,
 *::after,
 *::before {
@@ -261,12 +263,27 @@ li {
 }
 
 /* 🍉img */
+.page1 .grid-a .img_container{
+    background-color: #D4D948;
+    width: 3.5rem;
+    height: 3.5rem;
+
+    position: absolute;
+    bottom: 1.8rem;
+    left: 2.5rem;
+
+    line-height: 5.2rem;
+
+    border-radius: 50%;
+}
+
+
 .page1 .grid-a img {
-  width: 2.5rem;
+/*   width: 2.5rem;
 
   position: absolute;
   bottom: 2.5rem;
-  left: 3.5rem;
+  left: 3.5rem; */
 }
 
 .page1 .grid-b p {
