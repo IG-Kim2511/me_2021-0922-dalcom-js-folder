@@ -146,17 +146,20 @@ li {
 }
  */
 
- .abc .chashier{
+ .abc .cashier{
      /* width: 30vw; */
      display: flex;
      justify-content: center;
      align-items: center;
  }
 
- .abc .chashier p{
+ .abc .cashier p{
      padding: 1rem 2rem;
  }
 
+
+
+ /* 🍉flex
  .abc .items{
     display: flex;
     justify-content: space-between;
@@ -195,6 +198,46 @@ li {
     border-bottom: 1px black solid;    
 }
 
+ */
+
+ /* 🍉table */
+ .abc .check-wrap{  
+  width: 40vw; 
+  border-collapse: collapse;  
+}
+
+ .abc .check-wrap .tax,
+ .abc .check-wrap .total{
+   text-align: center;
+   color: black;
+   
+ }
+
+ .abc table {
+  border-top: 1px #717274 solid;    
+}
+
+.abc table .items{  
+  padding:  1rem auto;
+  margin:  1rem auto;  
+}
+
+.abc tbody {
+  border-top: 1px #717274 solid;    
+}
+
+.abc .check-wrap td {   
+  border-bottom: 1px #717274 solid;  
+
+  padding: 0.5rem 0.2rem;
+}
+.abc .check-wrap th {   
+   padding: 0.3rem 0.2rem;
+}
+
+.abc .tax-price{
+  border-bottom: 1px #717274 solid;  
+}
 
 
 
