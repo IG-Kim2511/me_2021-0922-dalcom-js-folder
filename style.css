@@ -146,17 +146,20 @@ li {
 }
  */
 
- .abc .chashier{
+ .abc .cashier{
      /* width: 30vw; */
      display: flex;
      justify-content: center;
      align-items: center;
  }
 
- .abc .chashier p{
+ .abc .cashier p{
      padding: 1rem 2rem;
  }
 
+ 
+
+ /* 
  .abc .items{
     display: flex;
     justify-content: space-between;
@@ -195,7 +198,7 @@ li {
     border-bottom: 1px black solid;    
 }
 
-
+ */
 
 
 
