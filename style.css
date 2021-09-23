@@ -247,7 +247,7 @@ li {
   width: 2.5rem;
 
   position: absolute;
-  bottom: 2rem;
+  bottom: 2.5rem;
   left: 3.5rem;
 }
 
@@ -264,7 +264,7 @@ li {
   width: 3rem;
 
   position: absolute;
-  bottom: 2rem;
+  bottom: 4rem;
   left: 2rem;
 }
 
@@ -272,7 +272,7 @@ li {
   width: 3rem;
 
   position: absolute;
-  bottom: 1.5rem;
+  bottom: 3rem;
   left: 3rem;
 }
 
@@ -297,6 +297,7 @@ li {
   display: block;
   margin: auto;
   padding: 20px;
+  padding-top: 5rem;
 }
 
 .page2 .btn-container {
@@ -384,8 +385,8 @@ li {
   width: 3rem;
 
   position: absolute;
-  bottom: 2rem;
-  left: 2rem;
+  bottom: 3rem;
+  left: 3rem;
 }
 
 .page2 .scan {
@@ -401,7 +402,7 @@ li {
     position: fixed;
     top: 0; 
     right: -30vw;
-    
+
     transition: all .3s ease;
 }
 .page3.change {
@@ -483,5 +484,5 @@ li {
 
   position: absolute;
   left: 4rem;
-  bottom: 1.5rem;
+  bottom: 3rem;
 }
