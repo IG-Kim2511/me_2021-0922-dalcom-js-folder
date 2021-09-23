@@ -169,7 +169,11 @@ li {
     padding: 0.2rem 3rem;
 }
 
-
+.abc .check {
+    float: right;
+    padding-right: 2rem;
+    color: black;
+}
 
 
 .disabled {
