@@ -157,8 +157,20 @@ li {
  }
 
  .abc .items{
-     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-top: 1px solid #717274;
+    border-bottom: 1px solid #717274;
  }
+
+ .abc .items .item{
+    padding: 0.2rem 3rem;
+}
+
+
+
 
 .disabled {
   width: 100%;
