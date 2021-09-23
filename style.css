@@ -273,10 +273,8 @@ li {
     left: 2.5rem;
 
     line-height: 4.8rem;
-
     border-radius: 50%;
 }
-
 
 .page1 .grid-b .img_container { 
   margin: auto;
@@ -284,9 +282,6 @@ li {
   right: 0;
 }
 
-.page1 .grid-b img {
-  width: 2.5rem;
-}
 
 .page1 .grid-c img {
   width: 3rem;
@@ -327,6 +322,11 @@ li {
   margin: 2rem 2rem;  
 }
 
+.page2 .title h1{
+    margin: 0 auto 2rem;    
+ }
+
+
 .page2 .title img {
   width: 12%;
 
@@ -336,7 +336,7 @@ li {
   width: 90%;
 
   position: absolute;
-  bottom: 2rem;
+  bottom: 3rem;
   left: 0;
   right: 0;
   margin: auto;
@@ -491,7 +491,7 @@ border-radius: 50%;
   width: 90%;
 
   position: absolute;
-  bottom: 1rem;
+  bottom: 2rem;
   left: 0;
   right: 0;
   margin: auto;
