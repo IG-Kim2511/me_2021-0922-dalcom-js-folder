@@ -113,10 +113,16 @@ li {
 .world-left {
   background: linear-gradient(to bottom, #fff 5%, var(--color-grey) 100%);
 
-  width: 70vw;
+  width: 55vw;
   height: 100vh;
   position: relative;
 }
+
+.world-middle{
+    width: 15vw;
+    height: 100vh;
+}
+
 .world-right {
   background-color: var(--color-white);
 
@@ -127,11 +133,49 @@ li {
 
 /*  */
 .abc {
+    background-color: #FFFFFF;
+    width: 40vw;
+    padding-top: 2rem;
+
+    color: #717274;
   margin: auto;
+  text-align: center;
 }
-.left-second_lay {
+/* .left-second_lay {
   background-color: #becbd3;
 }
+ */
+
+ .abc .chashier{
+     /* width: 30vw; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .abc .chashier p{
+     padding: 1rem 2rem;
+ }
+
+ .abc .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-top: 1px solid #717274;
+    border-bottom: 1px solid #717274;
+ }
+
+ .abc .items .item{
+    padding: 0.2rem 3rem;
+}
+
+.abc .check {
+    float: right;
+    padding-right: 2rem;
+    color: black;
+}
+
 
 .disabled {
   width: 100%;
