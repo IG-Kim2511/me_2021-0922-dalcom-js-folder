@@ -305,7 +305,7 @@ li {
 }
 
 /*🍀 page2  */
-.page2{
+/* .page2{
     position: fixed;
     top: 0; 
     right: -30vw;
@@ -314,18 +314,22 @@ li {
 }
 .page2.change {
     right: 0;
-}
+} */
 
-.page2 .title {
-  width: 30vw;
-}
-.page2 .title img {
-  width: 80%;
+.page2 .title { 
+  background-color: #fff;
+  
+  text-align: center;
 
-  display: block;
-  margin: auto;
-  padding: 20px;
+  padding: 1rem;
   padding-top: 5rem;
+  border: 1px black solid;
+  margin: 2rem 2rem;  
+}
+
+.page2 .title img {
+  width: 12%;
+
 }
 
 .page2 .btn-container {
@@ -388,33 +392,72 @@ li {
 
 /* 🍉img */
 
-.page2 .grid-a p {
+.page2 .grid-a .img_container {
+
+background-color: #29DB74;
+width: 3.2rem;
+height: 3.2rem;
+
+line-height: 4.8rem;
+border-radius: 50%;
+
   margin: auto;
   left: 0;
   right: 0;
-}
-.page2 .grid-a img {
-  width: 3rem;
-}
-.page2 .grid-b p {
-  margin: auto;
-  left: 0;
-  right: 0;
-}
-.page2 .grid-b img {
-  width: 3rem;
 }
 
+.page2 .grid-b .img_container {
+background-color: #29DB74;
+width: 3.2rem;
+height: 3.2rem;
+
+line-height: 4.8rem;
+border-radius: 50%;
+
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.page2 .grid-b img {
+  width: 2.7rem;
+}
+/* 
+.page1 .grid-a .img_container{
+    background-color: #D4D948;
+    width: 3.2rem;
+    height: 3.2rem;
+
+    position: absolute;
+    bottom: 1.8rem;
+    left: 2.5rem;
+
+    line-height: 4.8rem;
+
+    border-radius: 50%;
+}
+ */
+
 .page2 .grid-e img {
-  width: 3rem;
+    background-color: #B0ACB2;
+    width: 3.2rem;
+    height: 3.2rem;
+
+    line-height: 4.8rem;
+    border-radius: 50%;
 }
 
 .page2 .grid-f img {
-  width: 3rem;
+    background-color: #D4D948;
+    width: 3.2rem;
+    height: 3.2rem;  
 
-  position: absolute;
-  bottom: 3rem;
-  left: 3rem;
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+
+    line-height: 4.8rem;
+    border-radius: 50%;
 }
 
 .page2 .scan {
