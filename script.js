@@ -112,6 +112,9 @@ const page1Elem = document.querySelector('.page1');
 const page2Elem = document.querySelector('.page2');
 const page3Elem = document.querySelector('.page3');
 
+const notificationElem = document.querySelector('.notification');
+
+
 // 🍀event
 
 finishElem.addEventListener('click',()=>{
@@ -132,6 +135,12 @@ cancelElem.addEventListener('click',()=>{
     page3Elem.classList.remove('change');
 });
 
+
+window.addEventListener('load',()=>{
+    setTimeout(() => {
+        notificationElem.style.display = "none";
+    }, 5000);
+});
 
 
 
