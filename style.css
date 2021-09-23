@@ -142,7 +142,9 @@ li {
 
     
     border-radius: 1rem;
-    margin: 0 auto 0 1rem;
+    display: block;
+    margin: .5rem 1rem .5rem auto;
+ 
 }
 
 .left-second-container {
