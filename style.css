@@ -176,14 +176,24 @@ li {
 
 .page1 .bags {
   width: 30vw;
+
+  text-align: center;
+  border: solid 1px black;
+
+  margin: 2rem 2rem;
 }
+
 .page1 .bags img {
   width: 100%;
-
-  display: block;
-  margin: auto;
-  padding: 20px;
 }
+.page1 .bags .bags-title1 {
+  color: #D50F0F;
+}
+.page1 .bags .bags-title2 {
+    background-color: #555555;
+  color: #eee;
+}
+
 
 .page1 .btn-container {
   width: 90%;
