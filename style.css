@@ -113,10 +113,16 @@ li {
 .world-left {
   background: linear-gradient(to bottom, #fff 5%, var(--color-grey) 100%);
 
-  width: 70vw;
+  width: 55vw;
   height: 100vh;
   position: relative;
 }
+
+.world-middle{
+    width: 15vw;
+    height: 100vh;
+}
+
 .world-right {
   background-color: var(--color-white);
 
@@ -127,12 +133,15 @@ li {
 
 /*  */
 .abc {
+    background-color: #FFFFFF;
+    width: 40vw;
   margin: auto;
+  text-align: center;
 }
-.left-second_lay {
+/* .left-second_lay {
   background-color: #becbd3;
 }
-
+ */
 .disabled {
   width: 100%;
   margin: 0 auto 0 0;
