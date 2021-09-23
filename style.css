@@ -135,6 +135,7 @@ li {
 .abc {
     background-color: #FFFFFF;
     width: 40vw;
+    padding-top: 2rem;
 
     color: #717274;
   margin: auto;
