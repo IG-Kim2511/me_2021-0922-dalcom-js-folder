@@ -170,11 +170,34 @@ li {
     padding: 0.2rem 3rem;
 }
 
-.abc .check {
-    float: right;
-    padding-right: 2rem;
+
+.abc .check .item span{
+    padding-left: 2rem;
+}
+
+.abc .check {    
+    padding-left: 35rem;
     color: black;
 }
+
+
+ .abc .check .item {
+     display: flex;
+     justify-content: space-evenly;
+     padding-right: 1rem;     
+ }
+ .abc .check .item:nth-child(2) {
+   
+    padding-right: 1.5rem;     
+}
+
+ .abc .check .item .tax_num{
+    border-bottom: 1px black solid;    
+}
+
+
+
+
 
 
 .disabled {
