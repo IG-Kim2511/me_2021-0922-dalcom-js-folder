@@ -44,6 +44,7 @@ window.addEventListener('load',()=>{
 });
 
 
+/* 🌊softcoding 👉I can use Event bubbling, classList.contains  */
 
 
 
